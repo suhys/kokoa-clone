@@ -5,10 +5,12 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  align-items: center;
 }
 
 .status-bar__column {
   width: 32%;
+  align-items: center;
 }
 .status-bar__column:first-child span {
   margin-right: 5px;
@@ -21,7 +23,6 @@
 .status-bar__column:last-child {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
 }
 
 .status-bar__column .fa-battery-three-quarters {
